@@ -1,0 +1,137 @@
+[
+  {
+    "id": "auto-format-ts",
+    "name": "Auto Format TypeScript",
+    "category": "Formatting",
+    "description": "Automatically formats TypeScript files using Prettier after Claude edits them, ensuring consistent code style across your project.",
+    "repoUrl": "https://github.com/example/claude-hook-auto-format-ts",
+    "author": "johndoe",
+    "tags": ["prettier", "typescript", "formatting"]
+  },
+  {
+    "id": "bash-logger",
+    "name": "Bash Command Logger",
+    "category": "Logging",
+    "description": "Logs all bash commands executed by Claude to a file for audit purposes, helping you track and review all system operations.",
+    "repoUrl": "https://github.com/example/claude-hook-bash-logger",
+    "author": "janedoe",
+    "tags": ["logging", "bash", "audit"]
+  },
+  {
+    "id": "sensitive-file-guard",
+    "name": "Sensitive File Guard",
+    "category": "Security",
+    "description": "Prevents Claude from editing sensitive files like .env, credentials, and API keys to protect your secrets.",
+    "repoUrl": "https://github.com/example/claude-hook-file-guard",
+    "author": "securitydev",
+    "tags": ["security", "protection", "files"]
+  },
+  {
+    "id": "desktop-notifications",
+    "name": "Desktop Notifications",
+    "category": "Notifications",
+    "description": "Sends desktop notifications when Claude completes long-running tasks, so you can multitask efficiently.",
+    "repoUrl": "https://github.com/example/claude-hook-notifications",
+    "author": "notifydev",
+    "tags": ["notifications", "desktop", "alerts"]
+  },
+  {
+    "id": "markdown-formatter",
+    "name": "Markdown Auto-Formatter",
+    "category": "Formatting",
+    "description": "Automatically formats markdown files with consistent styling after Claude edits documentation.",
+    "repoUrl": "https://github.com/example/claude-hook-markdown-format",
+    "author": "docswriter",
+    "tags": ["markdown", "formatting", "docs"]
+  },
+  {
+    "id": "git-commit-validator",
+    "name": "Git Commit Validator",
+    "category": "Validation",
+    "description": "Validates git commit messages against conventional commit standards before allowing Claude to commit.",
+    "repoUrl": "https://github.com/example/claude-hook-commit-validator",
+    "author": "gitmaster",
+    "tags": ["git", "validation", "commits"]
+  },
+  {
+    "id": "test-runner",
+    "name": "Auto Test Runner",
+    "category": "Workflow",
+    "description": "Automatically runs tests after Claude makes code changes to ensure nothing breaks.",
+    "repoUrl": "https://github.com/example/claude-hook-test-runner",
+    "author": "testpro",
+    "tags": ["testing", "automation", "workflow"]
+  },
+  {
+    "id": "eslint-fixer",
+    "name": "ESLint Auto-Fixer",
+    "category": "Formatting",
+    "description": "Automatically runs ESLint with --fix flag after Claude edits JavaScript or TypeScript files.",
+    "repoUrl": "https://github.com/example/claude-hook-eslint",
+    "author": "lintlover",
+    "tags": ["eslint", "javascript", "linting"]
+  },
+  {
+    "id": "command-approval",
+    "name": "Command Approval Hook",
+    "category": "Security",
+    "description": "Requires manual approval before Claude can execute potentially dangerous bash commands.",
+    "repoUrl": "https://github.com/example/claude-hook-command-approval",
+    "author": "safetyfirst",
+    "tags": ["security", "bash", "approval"]
+  },
+  {
+    "id": "time-tracker",
+    "name": "Session Time Tracker",
+    "category": "Logging",
+    "description": "Tracks time spent in Claude Code sessions and generates detailed reports for productivity analysis.",
+    "repoUrl": "https://github.com/example/claude-hook-time-tracker",
+    "author": "proddev",
+    "tags": ["logging", "time", "productivity"]
+  },
+  {
+    "id": "code-backup",
+    "name": "Automatic Code Backup",
+    "category": "Workflow",
+    "description": "Automatically creates backups before Claude makes significant code changes, providing an easy rollback option.",
+    "repoUrl": "https://github.com/example/claude-hook-backup",
+    "author": "backupboss",
+    "tags": ["backup", "safety", "workflow"]
+  },
+  {
+    "id": "api-key-detector",
+    "name": "API Key Detector",
+    "category": "Security",
+    "description": "Scans code changes for accidentally committed API keys and secrets before allowing commits.",
+    "repoUrl": "https://github.com/example/claude-hook-key-detector",
+    "author": "securityninja",
+    "tags": ["security", "api-keys", "secrets"]
+  },
+  {
+    "id": "dependency-checker",
+    "name": "Dependency Security Checker",
+    "category": "Validation",
+    "description": "Checks for known vulnerabilities in dependencies when Claude modifies package.json files.",
+    "repoUrl": "https://github.com/example/claude-hook-dep-check",
+    "author": "depguard",
+    "tags": ["security", "dependencies", "npm"]
+  },
+  {
+    "id": "slack-notifier",
+    "name": "Slack Integration",
+    "category": "Notifications",
+    "description": "Sends notifications to Slack channels when Claude completes tasks or encounters errors.",
+    "repoUrl": "https://github.com/example/claude-hook-slack",
+    "author": "slackbot",
+    "tags": ["slack", "notifications", "team"]
+  },
+  {
+    "id": "code-review-checklist",
+    "name": "Code Review Checklist",
+    "category": "Validation",
+    "description": "Runs automated code review checks against best practices before allowing Claude to commit changes.",
+    "repoUrl": "https://github.com/example/claude-hook-review",
+    "author": "reviewmaster",
+    "tags": ["code-review", "quality", "validation"]
+  }
+]
